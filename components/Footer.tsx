@@ -5,7 +5,7 @@ const Footer = () => {
 
   return (
     <footer className="bg-gray-900 py-8">
-      <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10 flex justify-between items-center">
+      <div className="container flex sm:justify-between justify-center items-center gap-5 max-sm:flex-col">
         {/* Logo on the left side */}
         <div className="flex items-center space-x-2">
           <img src="/icons/logo.svg" alt="MeetHub Logo" className="h-8 sm:h-10" />

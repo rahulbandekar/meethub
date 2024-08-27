@@ -44,7 +44,7 @@ export default function RootLayout({
           <Toaster />
           {children}
           <Footer />
-          <Analytics />
+          <Analytics  />
         </body>
       </ClerkProvider>
     </html>
